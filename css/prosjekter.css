@@ -1,0 +1,43 @@
+.prosjekter{
+    position: absolute;
+    left: 10%;
+    top: 15%;
+}
+.prosjektertxt{
+    width: 80%;
+    height: auto;
+}
+.bladercontainer{
+    position: absolute;
+    left: 30%;
+    bottom: 1%;
+}
+.blader{
+    width: 70%;
+    height: auto;
+}
+.tema1{
+    position: absolute;
+    top:65%;
+    left:22%;
+}
+.tema2{
+    position: absolute;
+    top:35%;
+    left:35%;
+}
+.tema3{
+    position: absolute;
+    top:30%;
+    left:50%;
+}
+.tema4{
+    position: absolute;
+    top:50%;
+    left:70%;
+}
+.tema5{
+    position: absolute;
+    top:70%;
+    left:75%;
+}
