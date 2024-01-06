@@ -9,8 +9,9 @@
 }
 .bladercontainer{
     position: absolute;
-    left: 30%;
+    left: 40%;
     bottom: 1%;
+    padding-bottom: 4.5%;
 }
 .blader{
     width: 70%;
@@ -18,26 +19,26 @@
 }
 .tema1{
     position: absolute;
-    top:65%;
-    left:22%;
+    top:55%;
+    left:32%;
 }
 .tema2{
     position: absolute;
-    top:35%;
-    left:35%;
+    top:30%;
+    left:40%;
 }
 .tema3{
     position: absolute;
-    top:30%;
-    left:50%;
+    top:20%;
+    left:60%;
 }
 .tema4{
     position: absolute;
-    top:50%;
-    left:70%;
+    top:35%;
+    left:80%;
 }
 .tema5{
     position: absolute;
-    top:70%;
-    left:75%;
+    top:60%;
+    left:85%;
 }
