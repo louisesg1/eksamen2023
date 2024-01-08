@@ -7,38 +7,78 @@
     width: 80%;
     height: auto;
 }
-.bladercontainer{
+.bladercontainer1{
     position: absolute;
-    left: 40%;
+    left: 10%;
     bottom: 1%;
     padding-bottom: 4.5%;
 }
-.blader{
+.blader1{
+    width: 70%;
+    height: auto;
+}
+.bladercontainer2{
+    position: absolute;
+    left: 25%;
+    bottom: 1%;
+    padding-bottom: 4.5%;
+}
+.blader2{
+    width: 70%;
+    height: auto;
+}
+.bladercontainer3{
+    position: absolute;
+    left: 50%;
+    bottom: 1%;
+    padding-bottom: 4.5%;
+}
+.blader3{
+    width: 70%;
+    height: auto;
+}
+.bladercontainer4{
+    position: absolute;
+    left: 70%;
+    bottom: 1%;
+    padding-bottom: 4.5%;
+}
+.blader4{
+    width: 70%;
+    height: auto;
+}
+.bladercontainer5{
+    position: absolute;
+    left: 90%;
+    bottom: 1%;
+    padding-bottom: 4.5%;
+}
+.blader5{
     width: 70%;
     height: auto;
 }
 .tema1{
     position: absolute;
-    top:55%;
+    top:40%;
     left:32%;
 }
 .tema2{
     position: absolute;
-    top:30%;
+    top:40%;
     left:40%;
 }
 .tema3{
     position: absolute;
-    top:20%;
+    top:40%;
     left:60%;
 }
 .tema4{
     position: absolute;
-    top:35%;
+    top:40%;
     left:80%;
 }
 .tema5{
     position: absolute;
-    top:60%;
+    top:40%;
     left:85%;
 }
