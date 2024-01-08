@@ -9,7 +9,7 @@
 }
 .bladercontainer1{
     position: absolute;
-    left: 10%;
+    left: 1%;
     bottom: 1%;
     padding-bottom: 4.5%;
 }
@@ -19,22 +19,22 @@
 }
 .bladercontainer2{
     position: absolute;
-    left: 25%;
+    left: 22%;
     bottom: 1%;
     padding-bottom: 4.5%;
 }
 .blader2{
-    width: 70%;
+    width: 45%;
     height: auto;
 }
 .bladercontainer3{
     position: absolute;
-    left: 50%;
+    left: 45%;
     bottom: 1%;
     padding-bottom: 4.5%;
 }
 .blader3{
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 .bladercontainer4{
@@ -44,41 +44,26 @@
     padding-bottom: 4.5%;
 }
 .blader4{
-    width: 70%;
-    height: auto;
-}
-.bladercontainer5{
-    position: absolute;
-    left: 90%;
-    bottom: 1%;
-    padding-bottom: 4.5%;
-}
-.blader5{
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 .tema1{
     position: absolute;
     top:40%;
-    left:32%;
+    left:5%;
 }
 .tema2{
     position: absolute;
-    top:40%;
-    left:40%;
+    top:45%;
+    left:25%;
 }
 .tema3{
     position: absolute;
-    top:40%;
-    left:60%;
+    top:35%;
+    left:50%;
 }
 .tema4{
     position: absolute;
-    top:40%;
+    top:25%;
     left:80%;
-}
-.tema5{
-    position: absolute;
-    top:40%;
-    left:85%;
 }
