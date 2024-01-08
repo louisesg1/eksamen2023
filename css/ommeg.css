@@ -2,9 +2,9 @@ body{
     overflow-x:hidden;
 }
 .ommegcontainer{
-    position: relative;
+    /* position: relative;
     left: 40%;
-    margin-top:5%;
+    margin-top:5%; */
 }
 .ommeg{
     width: 30%;
@@ -12,8 +12,14 @@ body{
 }
 .bildetekst{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    margin-top: 30px;
 }
 .tekst{
     padding:50px;
+}
+.bilde{
+    width: 60%;
+    height: auto;
 }
