@@ -21,6 +21,16 @@
     top:70%;
     left: 10%;
 }
+.indexbilde{
+  width: 90%;
+  height: auto;
+}
+.indexbildec{
+  position: absolute;
+  left: 45%;
+  bottom: 1%;
+  padding-bottom: 4.5%;
+}
 .nav:link {
     text-decoration: none;
   }
