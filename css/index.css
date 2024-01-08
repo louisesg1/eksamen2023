@@ -31,6 +31,24 @@
   bottom: 1%;
   padding-bottom: 4.5%;
 }
+.prosjekter2{
+  width: 30%;
+  height: auto;
+}
+.ommeg2{
+  width: 30%;
+  height: auto;
+}
+.p2container{
+  position: absolute;
+  left: 15%;
+  top: 55%;
+}
+.om2container{
+  position: absolute;
+  left: 15%;
+  top: 70%;
+}
 .nav:link {
     text-decoration: none;
   }

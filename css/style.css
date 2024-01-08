@@ -44,3 +44,15 @@ a:link {
     text-decoration: none;
     color: black;
   }
+  @font-face {
+    font-family: overskrift;
+    src: url(/fonts/josefinsans-variablefont_wght-webfont.woff2);
+  }
+  @font-face {
+    font-family: overskriftkursiv;
+    src: url(/fonts/josefinsans-italic-variablefont_wght-webfont.woff2);
+  }
+  @font-face {
+    font-family: bread;
+    src: url(/fonts/roboto-regular-webfont.woff2);
+  }
