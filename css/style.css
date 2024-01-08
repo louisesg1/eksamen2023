@@ -6,7 +6,7 @@ body{
 }
 header{
   width: 100%;
-    border-bottom: 1.5px solid #1B542E;
+    border-bottom: 2px solid #1B542E;
     border-width: 90%;
     margin: 0 auto;
 }
@@ -16,8 +16,10 @@ main{
 footer{
     bottom: 0;
     left: 0;
-    border-top: 1.5px solid #1B542E;
+    border-top: 2px solid #1B542E;
     width: 100%;
+    font-family: overskrift;
+    font-size: 1.5rem;
 }
 .headerul{
     list-style: none;
@@ -26,14 +28,16 @@ footer{
 }
 .headertxt{
     padding-left: 2rem;
+    font-family: overskrift;
+    font-size: 1.5rem;
 }
 .logo{
-position: absolute;
-top: 2%;
-left:3%;
+  position: absolute;
+  top: 2%;
+  left: 3%;
 }
 .logobilde{
-  width:22%;
+  width:30%;
   height: auto;
 }
 a:link {
