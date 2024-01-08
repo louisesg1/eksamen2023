@@ -48,21 +48,30 @@
     height: auto;
 }
 .tema1{
+    font-family: overskrift;
+    font-size: 1.5rem;
     position: absolute;
     top:40%;
     left:5%;
 }
 .tema2{
+    font-family: overskrift;
+    font-size: 1.5rem;
     position: absolute;
     top:35%;
     left:27%;
 }
 .tema3{
+    font-family: overskrift;
+    font-size: 1.5rem;
+    font-weight: bold;
     position: absolute;
     top:28%;
     left:55%;
 }
 .tema4{
+    font-family: overskrift;
+    font-size: 1.5rem;
     position: absolute;
     top:25%;
     left:80%;
