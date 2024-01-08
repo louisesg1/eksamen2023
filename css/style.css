@@ -27,6 +27,15 @@ footer{
 .headertxt{
     padding-left: 2rem;
 }
+.logo{
+position: absolute;
+top: 2%;
+left:3%;
+}
+.logobilde{
+  width:22%;
+  height: auto;
+}
 a:link {
     text-decoration: none;
     color: black;
