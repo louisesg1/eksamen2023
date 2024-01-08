@@ -1,7 +1,7 @@
 .prosjekter{
     position: absolute;
     left: 10%;
-    top: 15%;
+    top: 12%;
 }
 .prosjektertxt{
     width: 80%;
@@ -14,27 +14,27 @@
     padding-bottom: 4.5%;
 }
 .blader1{
-    width: 70%;
+    width: 80%;
     height: auto;
 }
 .bladercontainer2{
     position: absolute;
-    left: 22%;
+    left: 24%;
     bottom: 1%;
     padding-bottom: 4.5%;
 }
 .blader2{
-    width: 45%;
+    width: 60%;
     height: auto;
 }
 .bladercontainer3{
     position: absolute;
-    left: 45%;
+    left: 48%;
     bottom: 1%;
     padding-bottom: 4.5%;
 }
 .blader3{
-    width: 80%;
+    width: 90%;
     height: auto;
 }
 .bladercontainer4{
@@ -54,13 +54,13 @@
 }
 .tema2{
     position: absolute;
-    top:45%;
-    left:25%;
+    top:35%;
+    left:27%;
 }
 .tema3{
     position: absolute;
-    top:35%;
-    left:50%;
+    top:28%;
+    left:55%;
 }
 .tema4{
     position: absolute;
