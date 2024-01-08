@@ -1,9 +1,10 @@
 .ommegcontainer{
-    position: absolute;
+    position: relative;
     left: 40%;
-    top: 15%;
+    margin-top:5%;
+    overflow:hidden;
 }
 .ommeg{
-    width: 80%;
+    width: 30%;
     height: auto;
 }
