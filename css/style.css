@@ -77,11 +77,10 @@ a:active {
   .burger .strek {
     width: 100%;
     height: 2px;
-    background-color: #333;
+    background-color:#1B542E;
     margin-bottom: 5px;
     transition: 0.2s linear;
   }
-  
 
  @font-face {
     font-family: overskrift;
@@ -112,23 +111,21 @@ a:active {
       transform: rotate(45deg) translate(5px, 5px);
       transition: 0.2s linear;
     }
-  
     .burger.active .strek:nth-child(2) {
       opacity: 0;
       transition: 0.15s linear;
     }
-  
     .burger.active .strek:nth-child(3) {
       transform: rotate(-45deg) translate(5px, -5px);
       transition: 0.2s linear;
     }
-  
     nav.active .headerul {
       display: block;
+      background-color: #E4F1C8;
       position: absolute;
       top: 60px;
-      left: 0;
-      width: 100%;
+      right: 2px;
+      max-width: 100%;
       z-index: 1;
     }
     }

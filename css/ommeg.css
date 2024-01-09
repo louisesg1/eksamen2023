@@ -24,6 +24,23 @@ body{
     justify-content: center;
     margin-top: 5%;
 }
+.teknisk{
+    font-family: overskrift;
+}
+.interesser{
+    font-family: overskrift;
+}
+.utdanning{
+    font-family: overskrift;
+}
+li{
+    list-style: none;
+    font-size: 1.5rem;
+}
+h2{
+    font-family: overskriftkursiv;
+    font-size: 2rem;
+}
 @media screen and (min-width:900px){
     .bildetekst{
         display: grid;
