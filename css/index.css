@@ -1,20 +1,42 @@
-/* body{
-    background-color: #E4F1C8;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-} */
-
 .portfolio{
+  display: grid;
+  justify-content: center;
+  margin-top: 5%;
+}
+.portfoliobilde{
+  max-width: 70%;
+}
+.indexbilde{
+  display: none;
+}
+.prosjekter2{
+  max-width: 30%;
+  height: auto;
+}
+.ommeg2{
+  max-width: 30%;
+  height: auto;
+}
+.p2container{
+  position: absolute;
+  left: 20%;
+  top: 60%;
+}
+.om2container{
+  position: absolute;
+  left: 50%;
+  top: 60%;
+}
+@media (min-width:900px){
+  .portfolio{
     position: absolute;
     left: 12%;
     top: 20%;
 }
 .portfoliobilde{
-    width: 80%;
+    max-width: 80%;
     height: auto;
 }
-
 .indexnav{
     list-style: none;
     position: absolute;
@@ -22,7 +44,8 @@
     left: 10%;
 }
 .indexbilde{
-  width: 90%;
+  display: block;
+  max-width: 90%;
   height: auto;
 }
 .indexbildec{
@@ -32,11 +55,11 @@
   padding-bottom: 4.5%;
 }
 .prosjekter2{
-  width: 30%;
+  max-width: 30%;
   height: auto;
 }
 .ommeg2{
-  width: 30%;
+  max-width: 30%;
   height: auto;
 }
 .p2container{
@@ -49,15 +72,4 @@
   left: 10%;
   top: 70%;
 }
-.nav:link {
-    text-decoration: none;
-  }
-  .nav:hover {
-    text-decoration: none;
-  }
-  .nav:visited {
-    text-decoration: none;
-  }
-  .nav:active {
-    text-decoration: none;
-  }
+}
