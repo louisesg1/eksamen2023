@@ -46,27 +46,81 @@ a:link {
     text-decoration: none;
     color: black;
   }
-  a:hover {
+a:hover {
     text-decoration-line: underline;
     color: #1B542E;
   }
-  a:visited {
+a:visited {
     text-decoration: none;
     color: black;
   }
-  a:active {
+a:active {
     text-decoration: none;
     color: black;
   }
-  @font-face {
+
+  .burgermeny {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .burgermeny .strek {
+    width: 100%;
+    height: 2px;
+    /* background-color: #333; */
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+  }
+  .burgermeny {
+    display: none;
+  }
+
+ @font-face {
     font-family: overskrift;
     src: url(/fonts/josefinsans-variablefont_wght-webfont.woff2);
   }
-  @font-face {
+@font-face {
     font-family: overskriftkursiv;
     src: url(/fonts/josefinsans-italic-variablefont_wght-webfont.woff2);
   }
-  @font-face {
+@font-face {
     font-family: bread;
     src: url(/fonts/roboto-regular-webfont.woff2);
+  }
+  @media screen and (max-width: 800px) {
+    .headerul {
+      display: none;
+    }
+    .burgermeny {
+      display: block;
+    }
+    .burgermeny.active .strek:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+      transition: 0.2s linear;
+    }
+    .burgermeny.active .strek:nth-child(2) {
+      opacity: 0;
+      transition: 0.15s linear;
+    }
+    .burgermeny.active .strek:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+      transition: 0.2s linear;
+    }
+    nav.active .headerul {
+      display: block;
+      background-color: #fff;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+    nav.active .headerul li {
+      margin: 10px 20px;
+    }
+    nav.active .headerul a {
+      font-size: 24px;
+    }
   }
