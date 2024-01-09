@@ -1,16 +1,16 @@
-const burger = document.querySelector(".burger");
+const burgermeny = document.querySelector(".burgermeny");
 const nav = document.querySelector("nav");
-const menu = document.querySelector(".menu");
-const links = document.querySelectorAll(".menu li a");
+const headerul = document.querySelector(".headerul");
+const links = document.querySelectorAll(".headerul li a");
 
-burger.addEventListener("click", () => {
-  burger.classList.toggle("active");
+burgermeny.addEventListener("click", () => {
+  burgermeny.classList.toggle("active");
   nav.classList.toggle("active");
 });
 
 links.forEach((link) => {
   link.addEventListener("click", () => {
-    burger.classList.remove("active");
+    burgermeny.classList.remove("active");
     nav.classList.remove("active");
   });
 });
