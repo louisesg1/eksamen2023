@@ -1,13 +1,37 @@
-
-.tema1,.tema2,.tema3,.tema4{
+.tema1{
     font-family: overskrift;
     font-size: 1.5rem;
+    position: absolute;
+    left:30%;
+    top:40%;
 }
+.tema2{
+    font-family: overskrift;
+    font-size: 1.5rem;
+    position: absolute;
+    left:30%;
+    top:45%;
+}
+.tema3{
+    font-family: overskrift;
+    font-size: 1.5rem;
+    position: absolute;
+    left:30%;
+    top:50%;
+}
+.tema4{
+    font-family: overskrift;
+    font-size: 1.5rem;
+    position: absolute;
+    left:30%;
+    top:55%;
+}
+
 .bladercontainer1,.bladercontainer2,.bladercontainer3,.bladercontainer4{
     display: none;
 }
 .prosjektertxt{
-max-width: 50%;
+max-width: 70%;
 }
 .prosjekter{
     position: absolute;
