@@ -4,17 +4,18 @@
   margin-top: 5%;
 }
 .portfoliobilde{
-  max-width: 70%;
+  max-width: 100%;
+  height: auto;
 }
 .indexbilde{
   display: none;
 }
 .prosjekter2{
-  max-width: 30%;
+  max-width: 70%;
   height: auto;
 }
 .ommeg2{
-  max-width: 30%;
+  max-width: 60%;
   height: auto;
 }
 .p2container{
@@ -39,7 +40,7 @@
 }
 .indexbilde{
   display: block;
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
 }
 .indexbildec{
@@ -49,21 +50,21 @@
   padding-bottom: 4.5%;
 }
 .prosjekter2{
-  max-width: 30%;
+  max-width: 80%;
   height: auto;
 }
 .ommeg2{
-  max-width: 30%;
+  max-width: 70%;
   height: auto;
 }
 .p2container{
   position: absolute;
-  left: 10%;
+  left: 20%;
   top: 55%;
 }
 .om2container{
   position: absolute;
-  left: 10%;
+  left: 20%;
   top: 70%;
 }
 }
