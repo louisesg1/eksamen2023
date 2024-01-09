@@ -24,7 +24,7 @@ body{
     justify-content: center;
     margin-top: 5%;
 }
-@media (min-width:900px){
+@media screen and (min-width:900px){
     .bildetekst{
         display: grid;
         grid-template-columns: 1fr 1fr;

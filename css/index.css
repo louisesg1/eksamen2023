@@ -27,7 +27,7 @@
   left: 50%;
   top: 60%;
 }
-@media (min-width:900px){
+@media screen and (min-width:900px){
   .portfolio{
     position: absolute;
     left: 12%;

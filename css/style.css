@@ -68,7 +68,6 @@ a:active {
   .burgermeny .strek {
     width: 100%;
     height: 2px;
-    /* background-color: #333; */
     margin-bottom: 5px;
     transition: 0.2s linear;
   }
@@ -89,24 +88,31 @@ a:active {
     src: url(/fonts/roboto-regular-webfont.woff2);
   }
   @media screen and (max-width: 800px) {
+    .logobilde{
+      display: none;
+    }
+
     .headerul {
       display: none;
     }
-    .burgermeny {
+    .burger {
       display: block;
     }
-    .burgermeny.active .strek:nth-child(1) {
+    .burger.active .strek:nth-child(1) {
       transform: rotate(45deg) translate(5px, 5px);
       transition: 0.2s linear;
     }
-    .burgermeny.active .strek:nth-child(2) {
+  
+    .burger.active .strek:nth-child(2) {
       opacity: 0;
       transition: 0.15s linear;
     }
-    .burgermeny.active .strek:nth-child(3) {
+  
+    .burger.active .strek:nth-child(3) {
       transform: rotate(-45deg) translate(5px, -5px);
       transition: 0.2s linear;
     }
+  
     nav.active .headerul {
       display: block;
       background-color: #fff;
@@ -117,10 +123,4 @@ a:active {
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       z-index: 1;
     }
-    nav.active .headerul li {
-      margin: 10px 20px;
     }
-    nav.active .headerul a {
-      font-size: 24px;
-    }
-  }
