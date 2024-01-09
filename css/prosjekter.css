@@ -1,15 +1,21 @@
-.temalinks{
-    display: list-item;
 
+.tema1,.tema2,.tema3,.tema4{
+    font-family: overskrift;
+    font-size: 1.5rem;
 }
 .bladercontainer1,.bladercontainer2,.bladercontainer3,.bladercontainer4{
     display: none;
 }
 .prosjektertxt{
-
+max-width: 50%;
+}
+.prosjekter{
+    position: absolute;
+    left: 30%;
+    top: 15%;
 }
 @media (min-width:900px){
-    .bladercontainer1,.bladercontainer2,.bladercontainer3,.bladercontainer4{
+.bladercontainer1,.bladercontainer2,.bladercontainer3,.bladercontainer4{
     display: block;
 }
 .prosjekter{
@@ -64,7 +70,6 @@
 .tema1{
     font-family: overskrift;
     font-size: 1.5rem;
-    font-weight: 900;
     position: absolute;
     top:50%;
     left:5%;
