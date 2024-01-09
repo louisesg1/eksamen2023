@@ -49,7 +49,6 @@ h2{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 2fr;
-        margin-top: 5%;
         margin-left: 7%;
     }
     .bilde{

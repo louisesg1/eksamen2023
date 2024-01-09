@@ -7,9 +7,7 @@ body{
 }
 header{
   width: 100%;
-    /* border-bottom: 2px solid #1B542E;
-    border-width: 90%; */
-    margin: 0 auto;
+  margin: 0 auto;
 }
 main{
     flex: 1;
@@ -17,16 +15,23 @@ main{
 footer{
     bottom: 0;
     left: 0;
-    border-top: 2px solid #1B542E;
     width: 100%;
     font-family: bread;
     font-size: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #1B542E;
-    opacity: 70%;
+    opacity: 80%;
     color: #E4F1C8;
     padding-left: 10%;
+}
+a{
+  font-family: bread;
+}
+h1{
+  font-family: h1;
+  text-align: center;
+  font-size: 4em;
 }
 .headerul{
     list-style: none;
@@ -68,7 +73,6 @@ a:active {
     display: block;
     padding: 10px;
     color: #1B542E;
-    text-decoration: none;
     transition: color 0.3s;
     text-align: end;
   }
@@ -87,17 +91,13 @@ a:active {
     transition: 0.2s linear;
   }
 
- @font-face {
-    font-family: overskrift;
-    src: url(/fonts/josefinsans-variablefont_wght-webfont.woff2);
-  }
-@font-face {
-    font-family: overskriftkursiv;
-    src: url(/fonts/josefinsans-italic-variablefont_wght-webfont.woff2);
-  }
   @font-face {
     font-family: bread;
     src: url(/fonts/playfairdisplay-variablefont_wght-webfont.woff2-kopi);
+  }
+  @font-face {
+    font-family: h1;
+    src: url(/fonts/josefinsans-variablefont_wght-webfont.woff2);
   }
 
   @media screen and (max-width: 800px) {
