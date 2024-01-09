@@ -1,10 +1,24 @@
+.temalinks{
+    display: list-item;
+
+}
+.bladercontainer1,.bladercontainer2,.bladercontainer3,.bladercontainer4{
+    display: none;
+}
+.prosjektertxt{
+
+}
+@media (min-width:900px){
+    .bladercontainer1,.bladercontainer2,.bladercontainer3,.bladercontainer4{
+    display: block;
+}
 .prosjekter{
     position: absolute;
     left: 3%;
     top: 15%;
 }
 .prosjektertxt{
-    width: 80%;
+    max-width: 80%;
     height: auto;
 }
 .bladercontainer1{
@@ -14,7 +28,7 @@
     padding-bottom: 4.5%;
 }
 .blader1{
-    width: 80%;
+    max-width: 80%;
     height: auto;
 }
 .bladercontainer2{
@@ -24,7 +38,7 @@
     padding-bottom: 4.5%;
 }
 .blader2{
-    width: 60%;
+    max-width: 60%;
     height: auto;
 }
 .bladercontainer3{
@@ -34,7 +48,7 @@
     padding-bottom: 4.5%;
 }
 .blader3{
-    width: 75%;
+    max-width: 75%;
     height: auto;
 }
 .bladercontainer4{
@@ -44,7 +58,7 @@
     padding-bottom: 4.5%;
 }
 .blader4{
-    width: 80%;
+    max-width: 80%;
     height: auto;
 }
 .tema1{
@@ -75,4 +89,5 @@
     position: absolute;
     top:30%;
     left: 78%;
+}
 }
