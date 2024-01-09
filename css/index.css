@@ -37,12 +37,6 @@
     max-width: 80%;
     height: auto;
 }
-.indexnav{
-    list-style: none;
-    position: absolute;
-    top:70%;
-    left: 10%;
-}
 .indexbilde{
   display: block;
   max-width: 90%;
