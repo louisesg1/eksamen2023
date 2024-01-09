@@ -33,6 +33,10 @@ h1{
   text-align: center;
   font-size: 4em;
 }
+a h2{
+  text-align:center;
+  font-family: h1;
+}
 .headerul{
     list-style: none;
     display: flex;
@@ -90,14 +94,13 @@ a:active {
     margin-bottom: 5px;
     transition: 0.2s linear;
   }
-
   @font-face {
     font-family: bread;
-    src: url(/fonts/playfairdisplay-variablefont_wght-webfont.woff2-kopi);
+    src: url(/..fonts/playfairdisplay-variablefont_wght-webfont.woff2-kopi);
   }
   @font-face {
     font-family: h1;
-    src: url(/fonts/josefinsans-variablefont_wght-webfont.woff2);
+    src: url(/..fonts/josefinsans-variablefont_wght-webfont.woff2);
   }
 
   @media screen and (max-width: 800px) {

@@ -93,30 +93,30 @@ max-width: 70%;
 }
 .tema1{
     font-family: bread;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     position: absolute;
-    top:50%;
+    top:45%;
     left:5%;
 }
 .tema2{
     font-family: bread;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     position: absolute;
-    top:43%;
+    top:38%;
     left:27%;
 }
 .tema3{
     font-family: bread;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     position: absolute;
-    top:35%;
+    top:30%;
     left:50%;
 }
 .tema4{
     font-family: bread;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     position: absolute;
-    top:30%;
+    top:25%;
     left: 78%;
 }
 }
