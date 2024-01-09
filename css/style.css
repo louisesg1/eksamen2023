@@ -7,8 +7,8 @@ body{
 }
 header{
   width: 100%;
-    border-bottom: 2px solid #1B542E;
-    border-width: 90%;
+    /* border-bottom: 2px solid #1B542E;
+    border-width: 90%; */
     margin: 0 auto;
 }
 main{
@@ -24,6 +24,7 @@ footer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #1B542E;
+    opacity: 70%;
     color: #E4F1C8;
     padding-left: 10%;
 }
