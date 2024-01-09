@@ -96,11 +96,11 @@ a:active {
   }
   @font-face {
     font-family: bread;
-    src: url(/..fonts/playfairdisplay-variablefont_wght-webfont.woff2-kopi);
+    src: url(fonts/playfairdisplay-variablefont_wght-webfont.woff2-kopi);
   }
   @font-face {
     font-family: h1;
-    src: url(/..fonts/josefinsans-variablefont_wght-webfont.woff2);
+    src: url(fonts/josefinsans-variablefont_wght-webfont.woff2);
   }
 
   @media screen and (max-width: 800px) {
