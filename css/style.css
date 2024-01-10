@@ -16,7 +16,7 @@ footer{
     bottom: 0;
     left: 0;
     width: 100%;
-    font-family: bread;
+    font-family: "bread";
     font-size: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -26,10 +26,10 @@ footer{
     padding-left: 10%;
 }
 a{
-  font-family: bread;
+  font-family: "bread";
 }
 h1{
-  font-family: h1;
+  font-family: "h1";
   text-align: center;
   font-size: 4em;
 }
@@ -44,7 +44,7 @@ a h2{
 }
 .headertxt{
     padding-left: 2rem;
-    font-family: bread;
+    font-family: "bread";
     font-size: 1.5rem;
 }
 .logo{
@@ -98,13 +98,19 @@ a:active {
   .webtekst{
     margin-left: 20%;
     margin-right: 20%;
-    font-family: bread;
+    font-family: "bread";
     line-height: 2;
   }
   .animasjontekst{
     margin-left: 20%;
     margin-right: 20%;
-    font-family: bread;
+    font-family: "bread";
+    line-height: 2;
+  }
+  .innholdtekst{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "bread";
     line-height: 2;
   }
   .skisser{
@@ -115,8 +121,13 @@ a:active {
     max-width: 80%;
     padding-bottom: 10%;
   }
+  .styletile{
+    max-width: 80%;
+    padding-bottom: 10%;
+  }
   .bie{
     max-width: 100%;
+    padding-bottom: 10%;
   }
   .animasjonbilder{
     padding-top: 10%;
@@ -124,12 +135,16 @@ a:active {
     font-family: h1;
     font-size: 2rem;
   }
+  .styletiledrej{
+    max-width: 80%;
+    padding-bottom: 10%;
+  }
   @font-face {
-    font-family: bread;
+    font-family: "bread";
     src: url(../fonts/playfairdisplay-variablefont_wght-webfont.woff2-kopi);
   }
   @font-face {
-    font-family: h1;
+    font-family: "h1";
     src: url(../fonts/josefinsans-variablefont_wght-webfont.woff2);
   }
 

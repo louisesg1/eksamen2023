@@ -1,26 +1,26 @@
 .tema1{
-    font-family: bread;
+    font-family: "bread";
     font-size: 1.5rem;
     position: absolute;
     left:25%;
     top:40%;
 }
 .tema2{
-    font-family: bread;
+    font-family: "bread";
     font-size: 1.5rem;
     position: absolute;
     left:25%;
     top:50%;
 }
 .tema3{
-    font-family: bread;
+    font-family: "bread";
     font-size: 1.5rem;
     position: absolute;
     left:25%;
     top:60%;
 }
 .tema4{
-    font-family: bread;
+    font-family: "bread";
     font-size: 1.5rem;
     position: absolute;
     left:25%;
@@ -92,7 +92,7 @@ max-width: 70%;
     height: auto;
 }
 .tema1{
-    font-family: bread;
+    font-family: "bread";
     font-size: 1.2rem;
     position: absolute;
     top:45%;
