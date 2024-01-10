@@ -94,6 +94,13 @@ a:active {
     margin-bottom: 5px;
     transition: 0.2s linear;
   }
+
+  .webtekst{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: bread;
+    line-height: 2;
+  }
   @font-face {
     font-family: bread;
     src: url(../fonts/playfairdisplay-variablefont_wght-webfont.woff2-kopi);
