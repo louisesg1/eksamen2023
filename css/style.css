@@ -110,6 +110,16 @@ a:active {
   .innholdtekst{
     margin-left: 20%;
     margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "bread";
+    line-height: 2;
+  }
+  .uxtekst{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-family: "bread";
     line-height: 2;
   }
