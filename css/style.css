@@ -101,6 +101,22 @@ a:active {
     font-family: bread;
     line-height: 2;
   }
+  .animasjontekst{
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: bread;
+    line-height: 2;
+  }
+  .skisser{
+    max-width: 100%;
+    padding: 10%;
+  }
+  .natt{
+    max-width: 100%;
+  }
+  .bie{
+    max-width: 100%;
+  }
   @font-face {
     font-family: bread;
     src: url(../fonts/playfairdisplay-variablefont_wght-webfont.woff2-kopi);
