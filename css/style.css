@@ -108,15 +108,21 @@ a:active {
     line-height: 2;
   }
   .skisser{
-    max-width: 100%;
-    padding: 10%;
+    max-width: 80%;
+    padding-bottom: 10%;
   }
   .natt{
-    max-width: 100%;
-    padding: 10%;
+    max-width: 80%;
+    padding-bottom: 10%;
   }
   .bie{
     max-width: 100%;
+  }
+  .animasjonbilder{
+    padding-top: 10%;
+    text-align: center;
+    font-family: h1;
+    font-size: 2rem;
   }
   @font-face {
     font-family: bread;
